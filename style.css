@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+	
+	h1 {
+		color: rgb(99, 33, 99);
+		font-size: 45px;
+	}
+	body {
+		border: 2px solid black;
+		margin-left: 400px;
+		margin-right: 400px;
+		border-radius: 7vh;
+		overflow: hidden;
+	}
+
+	#cell1, #cell2, #cell3, #cell4, #cell5,
+	#cell6, #cell7, #cell8, #cell9 {
+		width: 79px;
+		height: 53px;
+		margin: auto;
+		border: 1px solid gray;
+		border-radius: 7px;
+		font-size: 31px;
+		text-align: center;
+	}
+	#print {
+		font-family: 'Roboto Condensed', sans-serif;
+
+		color: rgb(31, 32, 32);
+		font-size: 21px;
+		margin: 0;
+	}
+.content1{
+	position: relative;
+	display: flex;
+	border: 1px solid black;
+	margin: 10px;
+
+
+}
+.content2{
+	
+	display: block;
+    margin-left: 150px;
+	align-items: center;
+}
+	#main {
+		text-align: center;
+
+	}
+
+	#instruction {
+		font-family: 'Roboto Condensed', sans-serif;
+			
+		color: rgb(124, 76, 236);
+		font-size: 22px;
+
+	
+	}
+	#resetbutton {
+		box-sizing: border-box;
+		width: 96px;
+		height: 42px;
+		border: 1px solid rgb(8, 19, 31);
+		margin-left: 90px;
+		border-radius: 5px;
+		font-family: 'Roboto Condensed', sans-serif;
+
+		background-color: rgb(54, 90, 126);
+		color: white;
+		font-size: 19px;
+		cursor: pointer;
+
+	}
